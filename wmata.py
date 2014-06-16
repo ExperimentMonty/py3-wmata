@@ -11,5 +11,4 @@ class Wmata(object):
 
     # By default, we'll use the WMATA demonstration key
     def __init__(self, api_key='kfgpmgvfgacx98de9q3xazww'):
-        if api_key is not None:
-            self.api_key = api_key
+        self.api_key = api_key
